@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <title>The trend of crypto currency</title>
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- jQuery UI CSS -->
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+      <br>
+      <br>
+      <br>
+    <h1 style="max-width: 700px; margin: auto; font-size:40px;">
+      The Trading History of Crypto Currency</h1>
+      <br>
+      <br>
+    <div style="background-image: url('img/coin3.png');">
+    <p style="max-width: 700px; margin: auto; font-size:18px;">
+      A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on blockchain technology—a distributed ledger enforced by a disparate network of computers. A defining feature of cryptocurrencies is that they are generally not issued by any central authority, rendering them theoretically immune to government interference or manipulation.</p>
+      <br>
+      <p style="max-width: 700px; margin: auto; font-size:18px;">Below we present the history price change in a vartiety of <b>crypocurrencies</b>, including BitCoin, Ethereum, Bitcoin Cash, Litecoin, and Ripple. You can specify the coin type in the drop down menu. Move your mouse over the line to check the specific price value.</p>
+      <br>
+        <!-- Bootstrap grid setup -->
+        <div class="container">
+            <div id="selections" class="row">
+                <div>
+                    <div id="slider-div">
+                        <label>Date: <span id="dateLabel1">12/05/2013</span> - <span id="dateLabel2">31/10/2017</span></label>
+                        <div id="date-slider"></div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <select id="coin-select" class="form-control">
+                        <option selected value="bitcoin">Bitcoin</option>
+                        <option value="ethereum">Ethereum</option>
+                        <option value="bitcoin_cash">Bitcoin Cash</option>
+                        <option value="litecoin">Litecoin</option>
+                        <option value="ripple">Ripple</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div id="chart-area"></div>
+            </div>
+        </div>
+    <!-- External JS libraries -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+    </body>
+</html>
